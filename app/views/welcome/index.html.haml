@@ -1,0 +1,125 @@
+/ /.container
+.container
+  .row
+    .box
+      .col-lg-12.text-center
+
+        #carousel-example-generic.carousel.slide
+          / Indicators
+          %ol.carousel-indicators.hidden-xs
+            %li.active{"data-slide-to" => "0", "data-target" => "#carousel-example-generic"}
+            %li{"data-slide-to" => "1", "data-target" => "#carousel-example-generic"}
+            %li{"data-slide-to" => "2", "data-target" => "#carousel-example-generic"}
+          / Wrapper for slides
+          .carousel-inner
+            .item.active
+              %img.img-responsive.img-full{:alt => "", :src => "../assets/slider_2.jpg"}
+            .item
+              %img.img-responsive.img-full{:alt => "", :src => "../assets/slider_5.jpg"}
+            .item
+              %img.img-responsive.img-full{:alt => "", :src => "../assets/slider_7.jpg"}
+          / Controls
+          %a.left.carousel-control{"data-slide" => "prev", :href => "#carousel-example-generic"}
+            %span.icon-prev
+          %a.right.carousel-control{"data-slide" => "next", :href => "#carousel-example-generic"}
+            %span.icon-next
+        %h2.brand-before
+          %small Welcome to
+        %h1.brand-name Village Square Childcare
+        %hr.tagline-divider
+          %h2
+            %small
+              Hours
+              %br
+              %strong 
+                6:30AM to 6:30PM 
+                %br
+                Monday through Friday
+        
+
+  .row#about
+    .box
+      .col-lg-12
+        %hr
+          %h2.intro-text.text-center
+            About Us
+            %strong 
+          %hr
+            %img.img-responsive.img-border.img-left{:alt => "", :src => "../assets/reading_together.jpg"}
+              %hr.visible-xs
+                %p 
+                  %br
+                  Village Square Childcare is a full service facility helping children get a well rounded educational experience with a mixture of learning and playing.  Your children are special and we want to give them the best possible learning opportunity we can.  We have Pre-K classes for all age except infants.
+                  %br
+                %p
+                  %strong
+                    Our Owner/Director
+
+                  Tammy Barr has over 14 years of daycare experience. She started working at a daycare in Mt. Pleasant to gain experience to eventually become a Owner/Director. Her children attended the oldest daycare in Mt. Pleasant and the opportunity came up for her to buy the daycare. She owned it for 8 years and decided she needed to open one a little closer to home, So that one was sold.  Then she had the great opportunity to open the North Charleston location and be one of the decision makers throughout the entire process and she jumped at the chance. It was a long 17 month period from start to opening and her goal is to make Village Square Childcare the BEST.
+
+                %p
+                  %strong
+                    Our Teachers
+                  Our teachers have a wide range of experience, most of the teachers have worked at other Childcare facilities or home daycares for many years. Some have attended college to get their degrees or diplomas in Early Childhood education, or other types of courses for further education. Almost all of them have their own children so have the experience of 24 hours a day, 7 days a week.
+                  %br
+                %p
+                  %strong
+                    Qualifications
+                  %br
+                  FBI & Sled Checked
+                  %br
+                  Sexual registry checked
+                  %br
+                  CPR & 1st Aid Certified
+                  %br
+                  Early Childhood development Courses
+                  %br
+                  DSS classes yearly
+                  %br
+                  EXPERIENCE
+  .row
+    .box
+      .col-lg-12
+        %hr
+          %h2.intro-text.text-center
+            Included Services
+            %strong 
+          %hr
+            %p 
+              Pre-K Classes
+              %br
+              Snack & Hot Lunch
+              %br
+              Spanish Lessons
+              %br
+              Summer Program
+              %br
+              Internet Observation Cameras
+            %p 
+              %br
+              In addition to these services we also provide the following services for an additional cost.
+              %br
+              %br
+              Dance Class
+              %br
+              Gymnastics Class 
+              %br
+              Summer Program with Field Trips
+              %br
+              Part Time Care for 3 & 4 year olds
+  .row#contact
+  .box
+    .col-lg-12
+      %hr
+        %h2.intro-text.text-center
+          Contact Us
+          %strong 
+        %hr
+          %p.centered 2409 Mall Drive  North Charleston, SC
+          / Responsive iFrame
+          .Flexible-container
+            %iframe{:frameborder => "0", :height => "450", :src => "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13403.281830386402!2d-80.0130993!3d32.8764695!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88fe635eb91a2c81%3A0x1d1e85e6f2d6b540!2s2409+Mall+Dr%2C+Charleston%2C+SC+29406!5e0!3m2!1sen!2sus!4v1414113001577", :style => "border:0", :width => "600"}
+            %hr.visible-xs
+              %br
+              %p
+                %strong  
